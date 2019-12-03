@@ -20,7 +20,7 @@ var server = http.createServer(function(req, res) {
     `);
 });
 
-server.listen(80);  // port listen
+server.listen();  // port listen
 
 console.log("Server listening on port 80");
 
